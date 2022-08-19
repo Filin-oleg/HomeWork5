@@ -41,4 +41,4 @@ double[] array = FillArray(5, 1, 10);
 double maxx = max (array);
 double minn = min (array);
 double result = maxx - minn;
-Console.WriteLine("Разница между максимальным и минимальным элементами массива = " + result);
+Console.WriteLine("Разница между максимальным и минимальным элементами массива вещественных чисел = " + result);
