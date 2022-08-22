@@ -18,7 +18,7 @@ int countEven (int [] array)
     int[] arr = array;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (array[i] % 2 == 0)
+        if (arr[i] % 2 == 0)
         {
             count += 1;
         }
