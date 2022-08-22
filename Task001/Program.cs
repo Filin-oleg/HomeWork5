@@ -5,14 +5,14 @@ Console.Clear();
 int[] FillArray(int arrLenght, int minValue, int maxValue)
 {
     int[] array = new int[arrLenght];
-    for (int i =0; i < arrLenght; i++)
+    for (int i = 0; i < arrLenght; i++)
     {
         array[i] = new Random().Next(minValue, maxValue);
     }
-    Console.WriteLine (string.Join (", ", array));
-    return  array;
+    Console.WriteLine(string.Join(", ", array));
+    return array;
 }
-int countEven (int [] array)
+int countEven(int[] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
