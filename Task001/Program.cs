@@ -15,10 +15,9 @@ int[] FillArray(int arrLenght, int minValue, int maxValue)
 int countEven (int [] array)
 {
     int count = 0;
-    int[] arr = array;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (arr[i] % 2 == 0)
+        if (array[i] % 2 == 0)
         {
             count += 1;
         }
