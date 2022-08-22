@@ -15,8 +15,7 @@ int[] FillArray(int arrLenght, int minValue, int maxValue)
 int sumOdd (int[] array)
 {
     int sum = 0;
-    int[] arr = array;
-    for (int i = 1; i < arr.Length; i++, i++)
+    for (int i = 1; i < array.Length; i++, i++)
     {
         sum += array[i];
     }
